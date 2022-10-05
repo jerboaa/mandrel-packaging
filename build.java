@@ -316,7 +316,7 @@ public class build
                 break;
             }
         }
-        Files.write(nativeImage, lines, StandardCharsets.UTF_8);
+        Files.write(nativeImage, lines, UTF_8);
     }
 }
 
